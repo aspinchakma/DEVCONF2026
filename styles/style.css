@@ -43,3 +43,24 @@ nav > ul a {
   font-size: 16px;
   color: #575757ff;
 }
+
+/* banner or hero section */
+.banner_main_container {
+  background-image:
+    linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+    url("../assets/banner.jpg");
+  padding: 110px 0;
+}
+.banner_container {
+  margin: 0 auto;
+  max-width: 690px;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+}
+.banner_container h1 {
+  font-size: 65px;
+}
+.banner_container p {
+  margin: 20px 0 270px;
+}
