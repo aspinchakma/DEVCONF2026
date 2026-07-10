@@ -64,3 +64,44 @@ nav > ul a {
 .banner_container p {
   margin: 20px 0 270px;
 }
+
+/* speaker section */
+.speaker_container {
+  margin: 80px auto;
+}
+.speaker_container > h2 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.speakers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.speaker {
+  border: 1px solid red;
+  border-radius: 12px;
+  border: 1px solid #e5e7ebff;
+  overflow: hidden;
+}
+.speaker img {
+  width: 100%;
+}
+.speaker_details {
+  padding: 24px;
+}
+.speaker_details h3 {
+  font-size: 12px;
+  color: #1d4ed8ff;
+  font-weight: 600;
+}
+.speaker_details h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 8px 0;
+}
+.speaker_details p {
+  font-size: 14px;
+  color: #575757ff;
+}
