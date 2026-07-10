@@ -105,3 +105,92 @@ nav > ul a {
   font-size: 14px;
   color: #575757ff;
 }
+
+/* secure your spot section */
+.secure_your_spot_container {
+  margin: 0 auto 200px;
+}
+.secure_your_spot_container > h2 {
+  font-size: 40px;
+  text-align: center;
+  font-weight: 700;
+}
+.secure_your_spot_container > p {
+  font-size: 16px;
+  color: #575757ff;
+  text-align: center;
+  margin: 12px 0 40px;
+}
+.plans {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.plan {
+  border: 1px solid #e5e7ebff;
+  border-radius: 12px;
+  padding: 20px;
+}
+.plan > h3 {
+  font-size: 13px;
+  color: #888888ff;
+  text-transform: uppercase;
+}
+.plan > h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 6px 0;
+}
+.plan > p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #888888ff;
+}
+.plan > hr {
+  border: none;
+  height: 2px;
+  background-color: #e5e7ebff;
+  margin: 20px 0;
+}
+.plan > ul {
+  line-height: 30px;
+  margin-bottom: 20px;
+  list-style-position: inside;
+}
+.plan > ul li {
+  font-size: 14px;
+}
+.plan > ul li::marker {
+  color: #60a5fa;
+}
+.plan button {
+  width: 100%;
+}
+/* plan two section */
+.plans > div:nth-child(2) {
+  background-color: #0d1b2aff;
+  color: white;
+}
+.plans > div:nth-child(2) h3 {
+  color: #93c5fdff;
+}
+.plans > div:nth-child(2) ul > li {
+  color: #ffffffcc;
+}
+.plans > div:nth-child(2) hr {
+  background: #ffffff1a;
+}
+
+/* plan three */
+.plans > div:nth-child(3) {
+  background-color: #f8f9fbff;
+}
+.plans > div:first-child button {
+  background-color: white;
+  color: #2563ebff;
+}
+.plans > div:nth-child(3) button {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
