@@ -194,6 +194,46 @@ nav > ul a {
   color: black;
   border: 1px solid black;
 }
+
+/* parners section */
+.partners_container {
+  margin: 0 auto 80px;
+}
+.partners_container > h3 {
+  text-align: center;
+  color: #2563ebff;
+  font-weight: 700;
+}
+.partners_container > h2 {
+  font-size: 40px;
+  text-align: center;
+  margin: 10px 0 50px;
+}
+.partners {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  gap: 20px;
+}
+.partners > div {
+  border: 1px solid #e5e7ebff;
+  filter: grayscale(100%);
+  padding: 12px;
+  object-fit: cover;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+
+  transition: all 0.6s;
+}
+.partners > div:hover {
+  filter: grayscale(0%);
+  transform: scale(1.1);
+}
+.partners > div > img {
+  width: 100%;
+}
+
 /* footer */
 footer {
   background-color: #0d1b2a;
