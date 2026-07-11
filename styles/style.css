@@ -240,9 +240,14 @@ nav > ul a {
   object-fit: cover;
   width: 85%;
 }
+
+/* news letter section */
 .news_letter {
   margin: 0 auto 80px;
   padding: 50px 0;
+  background: #f8fafc;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
 }
 .news_letter h2 {
   font-size: 40px;
