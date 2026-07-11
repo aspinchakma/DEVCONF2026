@@ -233,6 +233,46 @@ nav > ul a {
 .partners > div > img {
   width: 100%;
 }
+.partners > div:nth-child(7) {
+  text-align: center;
+}
+.partners > div:nth-child(7) img {
+  object-fit: cover;
+  width: 85%;
+}
+.news_letter {
+  margin: 0 auto 80px;
+  padding: 50px 0;
+}
+.news_letter h2 {
+  font-size: 40px;
+  text-align: center;
+}
+.news_letter p {
+  text-align: center;
+  color: #575757ff;
+  margin: 10px 0 30px;
+}
+.news_letter > div {
+  max-width: 450px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.news_letter input {
+  width: 100%;
+  font-size: 17px;
+  padding: 18px;
+  border: 1px solid rgb(198, 199, 200);
+  border-radius: 6px;
+  outline: none;
+}
+.news_letter > div > button {
+  position: absolute;
+  right: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+}
 
 /* footer */
 footer {
